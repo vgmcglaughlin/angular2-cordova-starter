@@ -1,0 +1,1 @@
+# angular2-cordova-starter
