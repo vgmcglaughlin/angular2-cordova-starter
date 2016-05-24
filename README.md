@@ -18,8 +18,9 @@ cordova platform add android
 
 Build:
 ```
-cd <root>/start-app/
+cd <root>/starter-app/
 ng build -prod
+cd ..
 rm -rf starter-app-native/www/* && cp -r starter-app/dist/ starter-app-native/www/
 ```
 Manually edit starter-app/native/www/index.html to remove this line:
