@@ -23,7 +23,7 @@ ng build -prod
 cd ..
 rm -rf starter-app-native/www/* && cp -r starter-app/dist/ starter-app-native/www/
 ```
-Manually edit starter-app/native/www/index.html to remove this line:
+Manually edit starter-app-native/www/index.html to remove this line:
 ```
 <base href="/">
 ```
@@ -36,4 +36,4 @@ cordova build ios
 Necessary changes to get it running:
 * Need to remove base href line from index.html (need to look at downstream effects)
 * starter-app.component.css cannot be empty, throws an error if it is
-* Use ng cli prod build to remove ember cli dependency
+* Use ng CLI prod build to remove ember CLI dependency
