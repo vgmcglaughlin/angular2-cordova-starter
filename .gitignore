@@ -34,3 +34,6 @@ node_modules
 
 # XCode
 xcuserdata
+
+# Cordova www
+starter-app-native/www
