@@ -16,7 +16,8 @@ var Step1Component = (function () {
     Step1Component = __decorate([
         core_1.Component({
             selector: 'step-1',
-            template: '<h2>Hello, Step 1</h2>',
+            template: '<div class="step"><h2>Hello, Step 1</h2></div>',
+            host: { 'class': 'ng-animate step-container' }
         }), 
         __metadata('design:paramtypes', [])
     ], Step1Component);
